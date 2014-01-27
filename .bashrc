@@ -89,7 +89,6 @@ fi
 #alias la='ls -A'
 #alias l='ls -CF'
 
-alias sourcebash='source ~/.bashrc'
 alias tmuxnamecurrentpane='printf \"\033]2;%s\033\\\"'
 alias apache2restart='sudo service apache2 restart'
 
