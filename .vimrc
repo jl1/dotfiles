@@ -1,3 +1,4 @@
+set title
 set expandtab
 set tabstop=4
 set shiftwidth=4
@@ -16,3 +17,4 @@ autocmd BufWinLeave * call clearmatches()
 set colorcolumn=80
 set noswapfile
 set enc=utf-8
+
