@@ -1,8 +1,9 @@
 alias rmp="find . -name '*.pyc' -delete"
+alias rmpl="ls -l | grep -v '.pyc'"
 alias l="ls -l"
 alias ll="ls -lHtr"
 alias sb='source ~/.bashrc'
-alias girh='grep -irH'
+alias girh='grep -irHIn --color'
 alias kmux='. ~/dotfiles/close_all_tmux.sh'
 alias lso='ls -ltrh'
 alias gs='git status'
