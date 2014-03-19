@@ -1,3 +1,5 @@
+set encoding=utf-8  " The encoding displayed.
+set fileencoding=utf-8  " The encoding written to file.
 set titlestring=%t%(\ %M%)%(\ (%{expand(\"%:~:.:h\")})%)%(\ %a%)
 set laststatus=2
 function! InsertStatuslineColor(mode)
@@ -37,9 +39,8 @@ autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
 autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 autocmd BufWinLeave * call clearmatches()
-
 :autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
 set colorcolumn=80
 set noswapfile
 set enc=utf-8
-
+set nowrap!
